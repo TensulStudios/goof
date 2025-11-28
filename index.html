@@ -10,6 +10,15 @@
       }
       body {
         background-color: #272020;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .content {
+        flex: 1;
+        padding: 20px;
       }
       .gimp {
         color: white;
@@ -26,14 +35,37 @@
         outline: auto;
         outline-color: black;
       }
+      .footer {
+        text-align: center;
+        padding: 2rem;
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 0.85rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+      }
+      .footer a {
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      .footer a:hover {
+        color: rgba(255, 255, 255, 0.8);
+      }
     </style>
   </head>
   <body>
-    <p class="title">hello i am real rachjan</p>
-    <p class="quote">everyone go play rtx gorilla tag 2 - real rachjan (in the big 2025)</p>
-    <div class="gimp">
-      <img src="https://media.discordapp.net/attachments/1441760056357158922/1443580266210918511/IMG_3608.jpg?ex=69299663&is=692844e3&hm=0dcf2758d0bf5229114c3bf7c9be89f3bddaa17de15d4ddfdbe2ee2a5aaad805&=&format=webp&width=332&height=443">
-      <p>aww look at cutiebrian in the shower fully chlothed with a nutcracker on the wall, lets all go show love and support to notgimpbrian and all show hate and disrespect to gimpdevelper</p>
+    <div class="content">
+      <p class="title">hello i am real rachjan</p>
+      <p class="quote">everyone go play rtx gorilla tag 2 - real rachjan (in the big 2025)</p>
+      <div class="gimp">
+        <img src="/image.png">
+        <p>aww look at cutiebrian in the shower fully chlothed with a nutcracker on the wall, lets all go show love and support to notgimpbrian and all show hate and disrespect to gimpdevelper</p>
+      </div>
     </div>
+    
+    <footer class="footer">
+      Site Hosted by <a href="https://temporarystudios.org" target="_blank">Temporary Studios</a>
+    </footer>
   </body>
 </html>
